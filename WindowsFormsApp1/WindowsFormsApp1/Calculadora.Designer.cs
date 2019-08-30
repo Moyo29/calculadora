@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-	partial class Form1
+	partial class Calculadora
 	{
 		/// <summary>
 		/// Variable del diseñador necesaria.
@@ -201,6 +201,7 @@
 			this.btnDiv.TabIndex = 10;
 			this.btnDiv.Text = "/";
 			this.btnDiv.UseVisualStyleBackColor = true;
+			this.btnDiv.Click += new System.EventHandler(this.BtnDiv_Click);
 			// 
 			// btnIgual
 			// 
@@ -241,6 +242,7 @@
 			this.btnMult.TabIndex = 15;
 			this.btnMult.Text = "*";
 			this.btnMult.UseVisualStyleBackColor = true;
+			this.btnMult.Click += new System.EventHandler(this.BtnMult_Click);
 			// 
 			// txtScreen
 			// 

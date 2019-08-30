@@ -10,20 +10,22 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-	public partial class Form1 : Form
+	public partial class Calculadora : Form
 	{
 		double primero;
 		double segundo;
 		string operador;
 
-		public Form1()
+		public Calculadora()
 		{
 			InitializeComponent();
 		}
 
 		private void Button1_Click(object sender, EventArgs e)
 		{
-
+			operador = "+";
+			primero = Double.Parse(txtScreen.Text);
+			txtScreen.Clear(); 
 		}
 
 		private void Button3_Click(object sender, EventArgs e)
@@ -38,7 +40,9 @@ namespace WindowsFormsApp1
 
 		private void Button10_Click(object sender, EventArgs e)
 		{
-
+			operador = "-";
+			primero = Double.Parse(txtScreen.Text);
+			txtScreen.Clear();
 		}
 
 		private void Button14_Click(object sender, EventArgs e)
@@ -94,6 +98,20 @@ namespace WindowsFormsApp1
 		private void Form1_Load(object sender, EventArgs e)
 		{
 
+		}
+
+		private void BtnDiv_Click(object sender, EventArgs e)
+		{
+			operador = "/";
+			primero = Double.Parse(txtScreen.Text);
+			txtScreen.Clear();
+		}
+
+		private void BtnMult_Click(object sender, EventArgs e)
+		{
+			operador = "*";
+			primero = Double.Parse(txtScreen.Text);
+			txtScreen.Clear();
 		}
 	}
 }
