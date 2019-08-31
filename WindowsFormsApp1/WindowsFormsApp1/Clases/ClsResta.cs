@@ -11,7 +11,7 @@ namespace WindowsFormsApp1.Clases
 		public double Restar(double N1, double N2)
 		{
 			double R;
-			R = N1 + N2;
+			R = N1 - N2;
 			return R;
 		}
 	}

@@ -212,6 +212,7 @@
 			this.btnIgual.TabIndex = 18;
 			this.btnIgual.Text = "=";
 			this.btnIgual.UseVisualStyleBackColor = true;
+			this.btnIgual.Click += new System.EventHandler(this.BtnIgual_Click);
 			// 
 			// btnBorrar
 			// 
@@ -222,6 +223,7 @@
 			this.btnBorrar.TabIndex = 17;
 			this.btnBorrar.Text = "←";
 			this.btnBorrar.UseVisualStyleBackColor = true;
+			this.btnBorrar.Click += new System.EventHandler(this.BtnBorrar_Click);
 			// 
 			// btnLimpiar
 			// 
@@ -255,7 +257,7 @@
 			this.txtScreen.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
 			this.txtScreen.TextChanged += new System.EventHandler(this.TxtScreen_TextChanged);
 			// 
-			// Form1
+			// Calculadora
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -279,7 +281,7 @@
 			this.Controls.Add(this.btnN4);
 			this.Controls.Add(this.btnN7);
 			this.Controls.Add(this.btnSuma);
-			this.Name = "Form1";
+			this.Name = "Calculadora";
 			this.Text = "Form1";
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.ResumeLayout(false);

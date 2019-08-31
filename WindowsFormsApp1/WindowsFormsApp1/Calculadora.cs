@@ -20,6 +20,10 @@ namespace WindowsFormsApp1
 		{
 			InitializeComponent();
 		}
+		Clases.ClsSuma obj = new Clases.ClsSuma();
+		Clases.ClsResta obj2 = new Clases.ClsResta();
+		Clases.ClsMultiplicaccion obj3 = new Clases.ClsMultiplicaccion();
+		Clases.ClsDivicion obj4 = new Clases.ClsDivicion();
 
 		private void Button1_Click(object sender, EventArgs e)
 		{
@@ -112,6 +116,48 @@ namespace WindowsFormsApp1
 			operador = "*";
 			primero = Double.Parse(txtScreen.Text);
 			txtScreen.Clear();
+		}
+
+		private void BtnIgual_Click(object sender, EventArgs e)
+		{
+			segundo = double.Parse(txtScreen.Text);
+
+			double Sum;
+			double Res;
+			double Mul;
+			double Div;
+
+			switch(operador)
+			{
+				case "+":
+					Sum = obj.Sumar((primero), (segundo));
+					txtScreen.Text = Sum.ToString();
+					break;
+
+				case "-":
+					Res = obj2.Restar((primero), (segundo));
+					txtScreen.Text = Res.ToString();
+					break;
+
+				case "/":
+					Div = obj4.Dividir((primero), (segundo));
+					txtScreen.Text = Div.ToString();
+					break;
+
+				case "*":
+					Mul = obj3.Multiplicar((primero), (segundo));
+					txtScreen.Text = Mul.ToString();
+					break;
+
+			}
+		}
+
+		private void BtnBorrar_Click(object sender, EventArgs e)
+		{
+			if (txtScreen.Text.Length == 1)
+				txtScreen.Text = "";
+			else
+				txtScreen.Text = txtScreen.Text.Substring(0, txtScreen.Text.Length - 1);
 		}
 	}
 }
