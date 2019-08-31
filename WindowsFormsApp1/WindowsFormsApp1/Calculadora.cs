@@ -159,5 +159,10 @@ namespace WindowsFormsApp1
 			else
 				txtScreen.Text = txtScreen.Text.Substring(0, txtScreen.Text.Length - 1);
 		}
+
+		private void BtnLimpiar_Click(object sender, EventArgs e)
+		{
+			txtScreen.Clear();
+		}
 	}
 }
