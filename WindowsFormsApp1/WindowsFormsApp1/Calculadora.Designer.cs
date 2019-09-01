@@ -47,6 +47,7 @@
 			this.btnLimpiar = new System.Windows.Forms.Button();
 			this.btnMult = new System.Windows.Forms.Button();
 			this.txtScreen = new System.Windows.Forms.TextBox();
+			this.btnPorc = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// btnSuma
@@ -54,9 +55,9 @@
 			this.btnSuma.BackColor = System.Drawing.Color.Tomato;
 			this.btnSuma.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnSuma.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnSuma.Location = new System.Drawing.Point(18, 67);
+			this.btnSuma.Location = new System.Drawing.Point(25, 70);
 			this.btnSuma.Name = "btnSuma";
-			this.btnSuma.Size = new System.Drawing.Size(64, 60);
+			this.btnSuma.Size = new System.Drawing.Size(46, 39);
 			this.btnSuma.TabIndex = 0;
 			this.btnSuma.Text = "+";
 			this.btnSuma.UseVisualStyleBackColor = false;
@@ -67,9 +68,9 @@
 			this.btnN7.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.btnN7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnN7.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnN7.Location = new System.Drawing.Point(18, 133);
+			this.btnN7.Location = new System.Drawing.Point(25, 115);
 			this.btnN7.Name = "btnN7";
-			this.btnN7.Size = new System.Drawing.Size(64, 60);
+			this.btnN7.Size = new System.Drawing.Size(46, 39);
 			this.btnN7.TabIndex = 1;
 			this.btnN7.Text = "7";
 			this.btnN7.UseVisualStyleBackColor = false;
@@ -80,9 +81,9 @@
 			this.btnN4.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.btnN4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnN4.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnN4.Location = new System.Drawing.Point(18, 199);
+			this.btnN4.Location = new System.Drawing.Point(25, 160);
 			this.btnN4.Name = "btnN4";
-			this.btnN4.Size = new System.Drawing.Size(64, 60);
+			this.btnN4.Size = new System.Drawing.Size(46, 39);
 			this.btnN4.TabIndex = 2;
 			this.btnN4.Text = "4";
 			this.btnN4.UseVisualStyleBackColor = false;
@@ -93,9 +94,9 @@
 			this.btnN1.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.btnN1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnN1.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnN1.Location = new System.Drawing.Point(18, 265);
+			this.btnN1.Location = new System.Drawing.Point(25, 205);
 			this.btnN1.Name = "btnN1";
-			this.btnN1.Size = new System.Drawing.Size(64, 60);
+			this.btnN1.Size = new System.Drawing.Size(46, 39);
 			this.btnN1.TabIndex = 3;
 			this.btnN1.Text = "1";
 			this.btnN1.UseVisualStyleBackColor = false;
@@ -106,9 +107,9 @@
 			this.btnN0.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.btnN0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnN0.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnN0.Location = new System.Drawing.Point(18, 331);
+			this.btnN0.Location = new System.Drawing.Point(25, 250);
 			this.btnN0.Name = "btnN0";
-			this.btnN0.Size = new System.Drawing.Size(134, 60);
+			this.btnN0.Size = new System.Drawing.Size(98, 39);
 			this.btnN0.TabIndex = 4;
 			this.btnN0.Text = "0";
 			this.btnN0.UseVisualStyleBackColor = false;
@@ -119,9 +120,9 @@
 			this.btnN2.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.btnN2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnN2.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnN2.Location = new System.Drawing.Point(88, 265);
+			this.btnN2.Location = new System.Drawing.Point(77, 205);
 			this.btnN2.Name = "btnN2";
-			this.btnN2.Size = new System.Drawing.Size(64, 60);
+			this.btnN2.Size = new System.Drawing.Size(46, 39);
 			this.btnN2.TabIndex = 8;
 			this.btnN2.Text = "2";
 			this.btnN2.UseVisualStyleBackColor = false;
@@ -132,9 +133,9 @@
 			this.btnN5.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.btnN5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnN5.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnN5.Location = new System.Drawing.Point(88, 199);
+			this.btnN5.Location = new System.Drawing.Point(77, 160);
 			this.btnN5.Name = "btnN5";
-			this.btnN5.Size = new System.Drawing.Size(64, 60);
+			this.btnN5.Size = new System.Drawing.Size(46, 39);
 			this.btnN5.TabIndex = 7;
 			this.btnN5.Text = "5";
 			this.btnN5.UseVisualStyleBackColor = false;
@@ -145,9 +146,9 @@
 			this.btnN8.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.btnN8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnN8.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnN8.Location = new System.Drawing.Point(88, 133);
+			this.btnN8.Location = new System.Drawing.Point(77, 115);
 			this.btnN8.Name = "btnN8";
-			this.btnN8.Size = new System.Drawing.Size(64, 60);
+			this.btnN8.Size = new System.Drawing.Size(46, 39);
 			this.btnN8.TabIndex = 6;
 			this.btnN8.Text = "8";
 			this.btnN8.UseVisualStyleBackColor = false;
@@ -158,9 +159,9 @@
 			this.btnResta.BackColor = System.Drawing.Color.Tomato;
 			this.btnResta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnResta.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnResta.Location = new System.Drawing.Point(88, 67);
+			this.btnResta.Location = new System.Drawing.Point(77, 70);
 			this.btnResta.Name = "btnResta";
-			this.btnResta.Size = new System.Drawing.Size(64, 60);
+			this.btnResta.Size = new System.Drawing.Size(46, 39);
 			this.btnResta.TabIndex = 5;
 			this.btnResta.Text = "-";
 			this.btnResta.UseVisualStyleBackColor = false;
@@ -171,9 +172,9 @@
 			this.button11.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.button11.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button11.Location = new System.Drawing.Point(158, 331);
+			this.button11.Location = new System.Drawing.Point(129, 250);
 			this.button11.Name = "button11";
-			this.button11.Size = new System.Drawing.Size(64, 60);
+			this.button11.Size = new System.Drawing.Size(46, 39);
 			this.button11.TabIndex = 14;
 			this.button11.Text = ".";
 			this.button11.UseVisualStyleBackColor = false;
@@ -184,9 +185,9 @@
 			this.btnN3.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.btnN3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnN3.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnN3.Location = new System.Drawing.Point(158, 265);
+			this.btnN3.Location = new System.Drawing.Point(129, 205);
 			this.btnN3.Name = "btnN3";
-			this.btnN3.Size = new System.Drawing.Size(64, 60);
+			this.btnN3.Size = new System.Drawing.Size(46, 39);
 			this.btnN3.TabIndex = 13;
 			this.btnN3.Text = "3";
 			this.btnN3.UseVisualStyleBackColor = false;
@@ -197,9 +198,9 @@
 			this.btnN6.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.btnN6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnN6.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnN6.Location = new System.Drawing.Point(158, 199);
+			this.btnN6.Location = new System.Drawing.Point(129, 160);
 			this.btnN6.Name = "btnN6";
-			this.btnN6.Size = new System.Drawing.Size(64, 60);
+			this.btnN6.Size = new System.Drawing.Size(46, 39);
 			this.btnN6.TabIndex = 12;
 			this.btnN6.Text = "6";
 			this.btnN6.UseVisualStyleBackColor = false;
@@ -210,9 +211,9 @@
 			this.btnN9.BackColor = System.Drawing.Color.LightSteelBlue;
 			this.btnN9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnN9.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnN9.Location = new System.Drawing.Point(158, 133);
+			this.btnN9.Location = new System.Drawing.Point(129, 115);
 			this.btnN9.Name = "btnN9";
-			this.btnN9.Size = new System.Drawing.Size(64, 60);
+			this.btnN9.Size = new System.Drawing.Size(46, 39);
 			this.btnN9.TabIndex = 11;
 			this.btnN9.Text = "9";
 			this.btnN9.UseVisualStyleBackColor = false;
@@ -223,9 +224,9 @@
 			this.btnDiv.BackColor = System.Drawing.Color.Tomato;
 			this.btnDiv.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnDiv.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnDiv.Location = new System.Drawing.Point(158, 67);
+			this.btnDiv.Location = new System.Drawing.Point(129, 70);
 			this.btnDiv.Name = "btnDiv";
-			this.btnDiv.Size = new System.Drawing.Size(64, 60);
+			this.btnDiv.Size = new System.Drawing.Size(46, 39);
 			this.btnDiv.TabIndex = 10;
 			this.btnDiv.Text = "/";
 			this.btnDiv.UseVisualStyleBackColor = false;
@@ -236,9 +237,9 @@
 			this.btnIgual.BackColor = System.Drawing.Color.RoyalBlue;
 			this.btnIgual.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnIgual.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnIgual.Location = new System.Drawing.Point(228, 265);
+			this.btnIgual.Location = new System.Drawing.Point(181, 250);
 			this.btnIgual.Name = "btnIgual";
-			this.btnIgual.Size = new System.Drawing.Size(64, 126);
+			this.btnIgual.Size = new System.Drawing.Size(46, 39);
 			this.btnIgual.TabIndex = 18;
 			this.btnIgual.Text = "=";
 			this.btnIgual.UseVisualStyleBackColor = false;
@@ -249,9 +250,9 @@
 			this.btnBorrar.BackColor = System.Drawing.Color.Yellow;
 			this.btnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnBorrar.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnBorrar.Location = new System.Drawing.Point(228, 199);
+			this.btnBorrar.Location = new System.Drawing.Point(181, 205);
 			this.btnBorrar.Name = "btnBorrar";
-			this.btnBorrar.Size = new System.Drawing.Size(64, 60);
+			this.btnBorrar.Size = new System.Drawing.Size(46, 39);
 			this.btnBorrar.TabIndex = 17;
 			this.btnBorrar.Text = "←";
 			this.btnBorrar.UseVisualStyleBackColor = false;
@@ -262,9 +263,9 @@
 			this.btnLimpiar.BackColor = System.Drawing.Color.Yellow;
 			this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnLimpiar.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnLimpiar.Location = new System.Drawing.Point(228, 133);
+			this.btnLimpiar.Location = new System.Drawing.Point(181, 160);
 			this.btnLimpiar.Name = "btnLimpiar";
-			this.btnLimpiar.Size = new System.Drawing.Size(64, 60);
+			this.btnLimpiar.Size = new System.Drawing.Size(46, 39);
 			this.btnLimpiar.TabIndex = 16;
 			this.btnLimpiar.Text = "CE";
 			this.btnLimpiar.UseVisualStyleBackColor = false;
@@ -275,9 +276,9 @@
 			this.btnMult.BackColor = System.Drawing.Color.Tomato;
 			this.btnMult.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
 			this.btnMult.Font = new System.Drawing.Font("Lucida Sans Unicode", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnMult.Location = new System.Drawing.Point(228, 67);
+			this.btnMult.Location = new System.Drawing.Point(181, 70);
 			this.btnMult.Name = "btnMult";
-			this.btnMult.Size = new System.Drawing.Size(64, 60);
+			this.btnMult.Size = new System.Drawing.Size(46, 39);
 			this.btnMult.TabIndex = 15;
 			this.btnMult.Text = "*";
 			this.btnMult.UseVisualStyleBackColor = false;
@@ -288,19 +289,32 @@
 			this.txtScreen.BackColor = System.Drawing.SystemColors.ControlDark;
 			this.txtScreen.Font = new System.Drawing.Font("Castellar", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtScreen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-			this.txtScreen.Location = new System.Drawing.Point(18, 15);
+			this.txtScreen.Location = new System.Drawing.Point(25, 18);
 			this.txtScreen.Name = "txtScreen";
 			this.txtScreen.ReadOnly = true;
-			this.txtScreen.Size = new System.Drawing.Size(274, 46);
+			this.txtScreen.Size = new System.Drawing.Size(202, 46);
 			this.txtScreen.TabIndex = 19;
 			this.txtScreen.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
 			this.txtScreen.TextChanged += new System.EventHandler(this.TxtScreen_TextChanged);
+			// 
+			// btnPorc
+			// 
+			this.btnPorc.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+			this.btnPorc.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnPorc.Location = new System.Drawing.Point(182, 116);
+			this.btnPorc.Name = "btnPorc";
+			this.btnPorc.Size = new System.Drawing.Size(45, 38);
+			this.btnPorc.TabIndex = 20;
+			this.btnPorc.Text = "%";
+			this.btnPorc.UseVisualStyleBackColor = true;
+			this.btnPorc.Click += new System.EventHandler(this.Button1_Click_1);
 			// 
 			// Calculadora
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(320, 396);
+			this.ClientSize = new System.Drawing.Size(271, 319);
+			this.Controls.Add(this.btnPorc);
 			this.Controls.Add(this.txtScreen);
 			this.Controls.Add(this.btnIgual);
 			this.Controls.Add(this.btnBorrar);
@@ -349,6 +363,7 @@
 		private System.Windows.Forms.Button btnLimpiar;
 		private System.Windows.Forms.Button btnMult;
 		private System.Windows.Forms.TextBox txtScreen;
+		private System.Windows.Forms.Button btnPorc;
 	}
 }
 

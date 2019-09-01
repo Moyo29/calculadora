@@ -24,6 +24,7 @@ namespace WindowsFormsApp1
 		Clases.ClsResta obj2 = new Clases.ClsResta();
 		Clases.ClsMultiplicaccion obj3 = new Clases.ClsMultiplicaccion();
 		Clases.ClsDivicion obj4 = new Clases.ClsDivicion();
+		Clases.ClsPorcentaje obj5 = new Clases.ClsPorcentaje();
 
 		private void Button1_Click(object sender, EventArgs e)
 		{
@@ -116,6 +117,13 @@ namespace WindowsFormsApp1
 			operador = "*";
 			primero = Double.Parse(txtScreen.Text);
 			txtScreen.Clear();
+
+		}
+		private void Button1_Click_1(object sender, EventArgs e)
+		{
+			operador = "%";
+			primero = Double.Parse(txtScreen.Text);
+			txtScreen.Clear();
 		}
 
 		private void BtnIgual_Click(object sender, EventArgs e)
@@ -126,6 +134,7 @@ namespace WindowsFormsApp1
 			double Res;
 			double Mul;
 			double Div;
+			double Por;
 
 			switch(operador)
 			{
@@ -148,6 +157,10 @@ namespace WindowsFormsApp1
 					Mul = obj3.Multiplicar((primero), (segundo));
 					txtScreen.Text = Mul.ToString();
 					break;
+				case "%":
+					Por = obj5.Porcentaje((primero), (segundo));
+					txtScreen.Text = Por.ToString();
+					break;
 
 			}
 		}
@@ -164,5 +177,7 @@ namespace WindowsFormsApp1
 		{
 			txtScreen.Clear();
 		}
+
+		
 	}
 }
